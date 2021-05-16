@@ -1,17 +1,37 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      COVID-19 Symptoms
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<!-- output symptoms contents -->
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-item-group>
+        <img src="../../assets/images/fever.PNG">
+        <ion-item-divider>
+          <ion-label>Fever</ion-label>
+        </ion-item-divider>
+      </ion-item-group>
+    </ion-item>
+    <ion-item>
+      <ion-item-group>
+        <img src="../../assets/images/breath.PNG">
+        <ion-item-divider>
+          <ion-label>Shortness of breath</ion-label>
+        </ion-item-divider>
+      </ion-item-group>
+    </ion-item>
+    <ion-item>
+      <ion-item-group>
+        <img src="../../assets/images/cough.PNG">
+        <ion-item-divider>
+          <ion-label>Cough</ion-label>
+        </ion-item-divider>
+      </ion-item-group>
+    </ion-item>
+  </ion-list>
 </ion-content>

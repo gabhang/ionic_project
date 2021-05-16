@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+    <ion-title>Status</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Display status: On risk/Healthy-->
+  <ion-title>Your status: {{myStatus}}</ion-title>
+  <p>If you feel sick with any of covid-19 symptomps, please call or SMS</p>
+  <div class="action-buttons">
+    <ion-button class="call">
+      <ion-icon name="call"></ion-icon>
+      Call now
+    </ion-button>
+    <ion-button class="sms">
+      <ion-icon name="chatbubble"></ion-icon>
+      Send SMS
+    </ion-button>
+  </div>
+</ion-content>

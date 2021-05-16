@@ -1,0 +1,13 @@
+// center buttons
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// set margins for title and p
+ion-title {
+    margin-top: 20px;
+}
+p {
+    margin-left: 20px;
+}
